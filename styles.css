@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+center
+{
+    font-size: 65px;
+    color: #fff;
+    text-shadow: 0 3px 0 rgba(250,200,250,0.5);
+}
+span:before
+{
+    content: '';
+    animation: animate infinite 4s;
+    color: red;
+}
+@keyframes animate 
+{
+    0%
+    {
+        content: 'Devloper';
+    }
+    30%
+    {
+        content: 'Desinger';
+    }
+    80%
+    {
+        content: 'Freelancer';
+    }
+    100%
+    {
+        content: 'Devloper';
+    }
+}
